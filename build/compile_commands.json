@@ -1,0 +1,252 @@
+[
+{
+  "directory": "/Users/wu/miscellaneous/leetcode/build",
+  "command": "/usr/bin/clang++ -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu++14 -o CMakeFiles/5-longestPalindrome.dir/5-longestPalindrome.cpp.o -c /Users/wu/miscellaneous/leetcode/5-longestPalindrome.cpp",
+  "file": "/Users/wu/miscellaneous/leetcode/5-longestPalindrome.cpp"
+},
+{
+  "directory": "/Users/wu/miscellaneous/leetcode/build",
+  "command": "/usr/bin/clang++ -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu++14 -o CMakeFiles/6-ZigZag.dir/6-ZigZag.cpp.o -c /Users/wu/miscellaneous/leetcode/6-ZigZag.cpp",
+  "file": "/Users/wu/miscellaneous/leetcode/6-ZigZag.cpp"
+},
+{
+  "directory": "/Users/wu/miscellaneous/leetcode/build",
+  "command": "/usr/bin/clang++ -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu++14 -o CMakeFiles/7-ReverseInteger.dir/7-ReverseInteger.cpp.o -c /Users/wu/miscellaneous/leetcode/7-ReverseInteger.cpp",
+  "file": "/Users/wu/miscellaneous/leetcode/7-ReverseInteger.cpp"
+},
+{
+  "directory": "/Users/wu/miscellaneous/leetcode/build",
+  "command": "/usr/bin/clang++ -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu++14 -o CMakeFiles/8-Atoi.dir/8-Atoi.cpp.o -c /Users/wu/miscellaneous/leetcode/8-Atoi.cpp",
+  "file": "/Users/wu/miscellaneous/leetcode/8-Atoi.cpp"
+},
+{
+  "directory": "/Users/wu/miscellaneous/leetcode/build",
+  "command": "/usr/bin/clang++ -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu++14 -o CMakeFiles/10-RegularExpressionMatching.dir/10-RegularExpressionMatching.cpp.o -c /Users/wu/miscellaneous/leetcode/10-RegularExpressionMatching.cpp",
+  "file": "/Users/wu/miscellaneous/leetcode/10-RegularExpressionMatching.cpp"
+},
+{
+  "directory": "/Users/wu/miscellaneous/leetcode/build",
+  "command": "/usr/bin/clang++ -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu++14 -o CMakeFiles/19-RemoveNthNode.dir/19-RemoveNthNode.cpp.o -c /Users/wu/miscellaneous/leetcode/19-RemoveNthNode.cpp",
+  "file": "/Users/wu/miscellaneous/leetcode/19-RemoveNthNode.cpp"
+},
+{
+  "directory": "/Users/wu/miscellaneous/leetcode/build",
+  "command": "/usr/bin/clang++ -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu++14 -o CMakeFiles/33-SearchInRotatedArray.dir/33-SearchInRotatedArray.cpp.o -c /Users/wu/miscellaneous/leetcode/33-SearchInRotatedArray.cpp",
+  "file": "/Users/wu/miscellaneous/leetcode/33-SearchInRotatedArray.cpp"
+},
+{
+  "directory": "/Users/wu/miscellaneous/leetcode/build",
+  "command": "/usr/bin/clang++ -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu++14 -o CMakeFiles/39-CombinationSum.dir/39-CombinationSum.cpp.o -c /Users/wu/miscellaneous/leetcode/39-CombinationSum.cpp",
+  "file": "/Users/wu/miscellaneous/leetcode/39-CombinationSum.cpp"
+},
+{
+  "directory": "/Users/wu/miscellaneous/leetcode/build",
+  "command": "/usr/bin/clang++ -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu++14 -o CMakeFiles/46-Permutation.dir/46-Permutation.cpp.o -c /Users/wu/miscellaneous/leetcode/46-Permutation.cpp",
+  "file": "/Users/wu/miscellaneous/leetcode/46-Permutation.cpp"
+},
+{
+  "directory": "/Users/wu/miscellaneous/leetcode/build",
+  "command": "/usr/bin/clang++ -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu++14 -o CMakeFiles/62-UniquePaths.dir/62-UniquePaths.cpp.o -c /Users/wu/miscellaneous/leetcode/62-UniquePaths.cpp",
+  "file": "/Users/wu/miscellaneous/leetcode/62-UniquePaths.cpp"
+},
+{
+  "directory": "/Users/wu/miscellaneous/leetcode/build",
+  "command": "/usr/bin/clang++ -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu++14 -o CMakeFiles/64-MinimumPathSum.dir/64-MinimumPathSum.cpp.o -c /Users/wu/miscellaneous/leetcode/64-MinimumPathSum.cpp",
+  "file": "/Users/wu/miscellaneous/leetcode/64-MinimumPathSum.cpp"
+},
+{
+  "directory": "/Users/wu/miscellaneous/leetcode/build",
+  "command": "/usr/bin/clang++ -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu++14 -o CMakeFiles/72-EditDistance.dir/72-EditDistance.cpp.o -c /Users/wu/miscellaneous/leetcode/72-EditDistance.cpp",
+  "file": "/Users/wu/miscellaneous/leetcode/72-EditDistance.cpp"
+},
+{
+  "directory": "/Users/wu/miscellaneous/leetcode/build",
+  "command": "/usr/bin/clang++ -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu++14 -o CMakeFiles/76-MinimumWindowSubstring.dir/76-MinimumWindowSubstring.cpp.o -c /Users/wu/miscellaneous/leetcode/76-MinimumWindowSubstring.cpp",
+  "file": "/Users/wu/miscellaneous/leetcode/76-MinimumWindowSubstring.cpp"
+},
+{
+  "directory": "/Users/wu/miscellaneous/leetcode/build",
+  "command": "/usr/bin/clang++ -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu++14 -o CMakeFiles/79-WordSearch.dir/79-WordSearch.cpp.o -c /Users/wu/miscellaneous/leetcode/79-WordSearch.cpp",
+  "file": "/Users/wu/miscellaneous/leetcode/79-WordSearch.cpp"
+},
+{
+  "directory": "/Users/wu/miscellaneous/leetcode/build",
+  "command": "/usr/bin/clang++ -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu++14 -o CMakeFiles/84-LargestRectangle.dir/84-LargestRectangle.cpp.o -c /Users/wu/miscellaneous/leetcode/84-LargestRectangle.cpp",
+  "file": "/Users/wu/miscellaneous/leetcode/84-LargestRectangle.cpp"
+},
+{
+  "directory": "/Users/wu/miscellaneous/leetcode/build",
+  "command": "/usr/bin/clang++ -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu++14 -o CMakeFiles/85-MaximalRectangle.dir/85-MaximalRectangle.cpp.o -c /Users/wu/miscellaneous/leetcode/85-MaximalRectangle.cpp",
+  "file": "/Users/wu/miscellaneous/leetcode/85-MaximalRectangle.cpp"
+},
+{
+  "directory": "/Users/wu/miscellaneous/leetcode/build",
+  "command": "/usr/bin/clang++ -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu++14 -o CMakeFiles/105-ConstructBinaryTree.dir/105-ConstructBinaryTree.cpp.o -c /Users/wu/miscellaneous/leetcode/105-ConstructBinaryTree.cpp",
+  "file": "/Users/wu/miscellaneous/leetcode/105-ConstructBinaryTree.cpp"
+},
+{
+  "directory": "/Users/wu/miscellaneous/leetcode/build",
+  "command": "/usr/bin/clang++ -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu++14 -o CMakeFiles/139-WordBreak.dir/139-WordBreak.cpp.o -c /Users/wu/miscellaneous/leetcode/139-WordBreak.cpp",
+  "file": "/Users/wu/miscellaneous/leetcode/139-WordBreak.cpp"
+},
+{
+  "directory": "/Users/wu/miscellaneous/leetcode/build",
+  "command": "/usr/bin/clang++ -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu++14 -o CMakeFiles/146-LRU.dir/146-LRU.cpp.o -c /Users/wu/miscellaneous/leetcode/146-LRU.cpp",
+  "file": "/Users/wu/miscellaneous/leetcode/146-LRU.cpp"
+},
+{
+  "directory": "/Users/wu/miscellaneous/leetcode/build",
+  "command": "/usr/bin/clang++ -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu++14 -o CMakeFiles/2104-SumOfSubarrayRanges.dir/2104-SumOfSubarrayRanges.cpp.o -c /Users/wu/miscellaneous/leetcode/2104-SumOfSubarrayRanges.cpp",
+  "file": "/Users/wu/miscellaneous/leetcode/2104-SumOfSubarrayRanges.cpp"
+},
+{
+  "directory": "/Users/wu/miscellaneous/leetcode/build",
+  "command": "/usr/bin/clang++ -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu++14 -o CMakeFiles/148-SortList.dir/148-SortList.cpp.o -c /Users/wu/miscellaneous/leetcode/148-SortList.cpp",
+  "file": "/Users/wu/miscellaneous/leetcode/148-SortList.cpp"
+},
+{
+  "directory": "/Users/wu/miscellaneous/leetcode/build",
+  "command": "/usr/bin/clang++ -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu++14 -o CMakeFiles/200-NumberOfIslands.dir/200-NumberOfIslands.cpp.o -c /Users/wu/miscellaneous/leetcode/200-NumberOfIslands.cpp",
+  "file": "/Users/wu/miscellaneous/leetcode/200-NumberOfIslands.cpp"
+},
+{
+  "directory": "/Users/wu/miscellaneous/leetcode/build",
+  "command": "/usr/bin/clang++ -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu++14 -o CMakeFiles/210-CourseSchedule.dir/210-CourseSchedule.cpp.o -c /Users/wu/miscellaneous/leetcode/210-CourseSchedule.cpp",
+  "file": "/Users/wu/miscellaneous/leetcode/210-CourseSchedule.cpp"
+},
+{
+  "directory": "/Users/wu/miscellaneous/leetcode/build",
+  "command": "/usr/bin/clang++ -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu++14 -o CMakeFiles/215-KthLargestElement.dir/215-KthLargestElement.cpp.o -c /Users/wu/miscellaneous/leetcode/215-KthLargestElement.cpp",
+  "file": "/Users/wu/miscellaneous/leetcode/215-KthLargestElement.cpp"
+},
+{
+  "directory": "/Users/wu/miscellaneous/leetcode/build",
+  "command": "/usr/bin/clang++ -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu++14 -o CMakeFiles/5217.dir/5217.cpp.o -c /Users/wu/miscellaneous/leetcode/5217.cpp",
+  "file": "/Users/wu/miscellaneous/leetcode/5217.cpp"
+},
+{
+  "directory": "/Users/wu/miscellaneous/leetcode/build",
+  "command": "/usr/bin/clang++ -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu++14 -o CMakeFiles/6018-BinaryTree.dir/6018-BinaryTree.cpp.o -c /Users/wu/miscellaneous/leetcode/6018-BinaryTree.cpp",
+  "file": "/Users/wu/miscellaneous/leetcode/6018-BinaryTree.cpp"
+},
+{
+  "directory": "/Users/wu/miscellaneous/leetcode/build",
+  "command": "/usr/bin/clang++ -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu++14 -o CMakeFiles/6019.dir/6019.cpp.o -c /Users/wu/miscellaneous/leetcode/6019.cpp",
+  "file": "/Users/wu/miscellaneous/leetcode/6019.cpp"
+},
+{
+  "directory": "/Users/wu/miscellaneous/leetcode/build",
+  "command": "/usr/bin/clang++ -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu++14 -o CMakeFiles/2100-FindGoodDaysToRob.dir/2100-FindGoodDaysToRob.cpp.o -c /Users/wu/miscellaneous/leetcode/2100-FindGoodDaysToRob.cpp",
+  "file": "/Users/wu/miscellaneous/leetcode/2100-FindGoodDaysToRob.cpp"
+},
+{
+  "directory": "/Users/wu/miscellaneous/leetcode/build",
+  "command": "/usr/bin/clang++ -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu++14 -o CMakeFiles/239-SlidingWindowMaximum.dir/239-SlidingWindowMaximum.cpp.o -c /Users/wu/miscellaneous/leetcode/239-SlidingWindowMaximum.cpp",
+  "file": "/Users/wu/miscellaneous/leetcode/239-SlidingWindowMaximum.cpp"
+},
+{
+  "directory": "/Users/wu/miscellaneous/leetcode/build",
+  "command": "/usr/bin/clang++ -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu++14 -o CMakeFiles/240-SearchA2DMatrix.dir/240-SearchA2DMatrix.cpp.o -c /Users/wu/miscellaneous/leetcode/240-SearchA2DMatrix.cpp",
+  "file": "/Users/wu/miscellaneous/leetcode/240-SearchA2DMatrix.cpp"
+},
+{
+  "directory": "/Users/wu/miscellaneous/leetcode/build",
+  "command": "/usr/bin/clang++ -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu++14 -o CMakeFiles/287-FindDup.dir/287-FindDup.cpp.o -c /Users/wu/miscellaneous/leetcode/287-FindDup.cpp",
+  "file": "/Users/wu/miscellaneous/leetcode/287-FindDup.cpp"
+},
+{
+  "directory": "/Users/wu/miscellaneous/leetcode/build",
+  "command": "/usr/bin/clang++ -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu++14 -o CMakeFiles/2195-Kintegers.dir/2195-Kintegers.cpp.o -c /Users/wu/miscellaneous/leetcode/2195-Kintegers.cpp",
+  "file": "/Users/wu/miscellaneous/leetcode/2195-Kintegers.cpp"
+},
+{
+  "directory": "/Users/wu/miscellaneous/leetcode/build",
+  "command": "/usr/bin/clang++ -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu++14 -o CMakeFiles/300-LongestIncreasingSubsequence.dir/300-LongestIncreasingSubsequence.cpp.o -c /Users/wu/miscellaneous/leetcode/300-LongestIncreasingSubsequence.cpp",
+  "file": "/Users/wu/miscellaneous/leetcode/300-LongestIncreasingSubsequence.cpp"
+},
+{
+  "directory": "/Users/wu/miscellaneous/leetcode/build",
+  "command": "/usr/bin/clang++ -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu++14 -o CMakeFiles/301-RemoveInvalidParentheses.dir/301-RemoveInvalidParentheses.cpp.o -c /Users/wu/miscellaneous/leetcode/301-RemoveInvalidParentheses.cpp",
+  "file": "/Users/wu/miscellaneous/leetcode/301-RemoveInvalidParentheses.cpp"
+},
+{
+  "directory": "/Users/wu/miscellaneous/leetcode/build",
+  "command": "/usr/bin/clang++ -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu++14 -o CMakeFiles/798-SmallestRotation.dir/798-SmallestRotation.cpp.o -c /Users/wu/miscellaneous/leetcode/798-SmallestRotation.cpp",
+  "file": "/Users/wu/miscellaneous/leetcode/798-SmallestRotation.cpp"
+},
+{
+  "directory": "/Users/wu/miscellaneous/leetcode/build",
+  "command": "/usr/bin/clang++ -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu++14 -o CMakeFiles/2049-CountNodesWithTheHighestScore.dir/2049-CountNodesWithTheHighestScore.cpp.o -c /Users/wu/miscellaneous/leetcode/2049-CountNodesWithTheHighestScore.cpp",
+  "file": "/Users/wu/miscellaneous/leetcode/2049-CountNodesWithTheHighestScore.cpp"
+},
+{
+  "directory": "/Users/wu/miscellaneous/leetcode/build",
+  "command": "/usr/bin/clang++ -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu++14 -o CMakeFiles/347-TopKFrequent.dir/347-TopKFrequent.cpp.o -c /Users/wu/miscellaneous/leetcode/347-TopKFrequent.cpp",
+  "file": "/Users/wu/miscellaneous/leetcode/347-TopKFrequent.cpp"
+},
+{
+  "directory": "/Users/wu/miscellaneous/leetcode/build",
+  "command": "/usr/bin/clang++ -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu++14 -o CMakeFiles/990-Satisfiability.dir/990-Satisfiability.cpp.o -c /Users/wu/miscellaneous/leetcode/990-Satisfiability.cpp",
+  "file": "/Users/wu/miscellaneous/leetcode/990-Satisfiability.cpp"
+},
+{
+  "directory": "/Users/wu/miscellaneous/leetcode/build",
+  "command": "/usr/bin/clang++ -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu++14 -o CMakeFiles/399-EvaluateDivision.dir/399-EvaluateDivision.cpp.o -c /Users/wu/miscellaneous/leetcode/399-EvaluateDivision.cpp",
+  "file": "/Users/wu/miscellaneous/leetcode/399-EvaluateDivision.cpp"
+},
+{
+  "directory": "/Users/wu/miscellaneous/leetcode/build",
+  "command": "/usr/bin/clang++ -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu++14 -o CMakeFiles/416-PartitionEqualSubsetSum.dir/416-PartitionEqualSubsetSum.cpp.o -c /Users/wu/miscellaneous/leetcode/416-PartitionEqualSubsetSum.cpp",
+  "file": "/Users/wu/miscellaneous/leetcode/416-PartitionEqualSubsetSum.cpp"
+},
+{
+  "directory": "/Users/wu/miscellaneous/leetcode/build",
+  "command": "/usr/bin/clang++ -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu++14 -o CMakeFiles/438-FindAllAnagrams.dir/438-FindAllAnagrams.cpp.o -c /Users/wu/miscellaneous/leetcode/438-FindAllAnagrams.cpp",
+  "file": "/Users/wu/miscellaneous/leetcode/438-FindAllAnagrams.cpp"
+},
+{
+  "directory": "/Users/wu/miscellaneous/leetcode/build",
+  "command": "/usr/bin/clang++ -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu++14 -o CMakeFiles/494-FindTargetSum.dir/494-FindTargetSum.cpp.o -c /Users/wu/miscellaneous/leetcode/494-FindTargetSum.cpp",
+  "file": "/Users/wu/miscellaneous/leetcode/494-FindTargetSum.cpp"
+},
+{
+  "directory": "/Users/wu/miscellaneous/leetcode/build",
+  "command": "/usr/bin/clang++ -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu++14 -o CMakeFiles/6031-kDistances.dir/6031-kDistances.cpp.o -c /Users/wu/miscellaneous/leetcode/6031-kDistances.cpp",
+  "file": "/Users/wu/miscellaneous/leetcode/6031-kDistances.cpp"
+},
+{
+  "directory": "/Users/wu/miscellaneous/leetcode/build",
+  "command": "/usr/bin/clang++ -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu++14 -o CMakeFiles/733-FloodFill.dir/733-FloodFill.cpp.o -c /Users/wu/miscellaneous/leetcode/733-FloodFill.cpp",
+  "file": "/Users/wu/miscellaneous/leetcode/733-FloodFill.cpp"
+},
+{
+  "directory": "/Users/wu/miscellaneous/leetcode/build",
+  "command": "/usr/bin/clang++ -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu++14 -o CMakeFiles/560-SubarraySum.dir/560-SubarraySum.cpp.o -c /Users/wu/miscellaneous/leetcode/560-SubarraySum.cpp",
+  "file": "/Users/wu/miscellaneous/leetcode/560-SubarraySum.cpp"
+},
+{
+  "directory": "/Users/wu/miscellaneous/leetcode/build",
+  "command": "/usr/bin/clang++ -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu++14 -o CMakeFiles/1020-NumberOfEnclaves.dir/1020-NumberOfEnclaves.cpp.o -c /Users/wu/miscellaneous/leetcode/1020-NumberOfEnclaves.cpp",
+  "file": "/Users/wu/miscellaneous/leetcode/1020-NumberOfEnclaves.cpp"
+},
+{
+  "directory": "/Users/wu/miscellaneous/leetcode/build",
+  "command": "/usr/bin/clang++ -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu++14 -o CMakeFiles/1905-CountSubIslands.dir/1905-CountSubIslands.cpp.o -c /Users/wu/miscellaneous/leetcode/1905-CountSubIslands.cpp",
+  "file": "/Users/wu/miscellaneous/leetcode/1905-CountSubIslands.cpp"
+},
+{
+  "directory": "/Users/wu/miscellaneous/leetcode/build",
+  "command": "/usr/bin/clang++ -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu++14 -o CMakeFiles/164-MaximumGap.dir/164-MaximumGap.cpp.o -c /Users/wu/miscellaneous/leetcode/164-MaximumGap.cpp",
+  "file": "/Users/wu/miscellaneous/leetcode/164-MaximumGap.cpp"
+},
+{
+  "directory": "/Users/wu/miscellaneous/leetcode/build",
+  "command": "/usr/bin/clang++ -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu++14 -o CMakeFiles/432-AlloneStructure.dir/432-AlloneStructure.cpp.o -c /Users/wu/miscellaneous/leetcode/432-AlloneStructure.cpp",
+  "file": "/Users/wu/miscellaneous/leetcode/432-AlloneStructure.cpp"
+},
+{
+  "directory": "/Users/wu/miscellaneous/leetcode/build",
+  "command": "/usr/bin/clang++ -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu++14 -o CMakeFiles/212-WordSearch2.dir/212-WordSearch2.cpp.o -c /Users/wu/miscellaneous/leetcode/212-WordSearch2.cpp",
+  "file": "/Users/wu/miscellaneous/leetcode/212-WordSearch2.cpp"
+}
+]
