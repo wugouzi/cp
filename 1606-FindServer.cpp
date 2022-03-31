@@ -5,14 +5,23 @@
 #include "leetcode.h"
 
 vector<int> busiestServers(int k, vector<int>& arrival, vector<int>& load) {
-    vector<int> cnt(k), free(k);
+    set<int> avai;
+    using Pair = pair<int, int>;
+    priority_queue<Pair, vector<Pair>, greater<Pair>> busy;
+    vector<int> cnt(k);
+    for (int i = 0; i < k; i++) avai.insert(i);
     for (int i = 0; i < arrival.size(); i++) {
-        int j = i % k;
-        while (j < i + k && free[j%k] > arrival[i]) j++;
-        if (j == i + k)
-            continue;
-        free[j] += load[i];
-        cnt[j]++;
+        while(!busy.empty() && busy.top().first <= arrival[i]) {
+            avai.insert(busy.top().second);
+            busy.pop();
+        }
+        if (avai.empty()) continue;
+        auto p = avai.lower_bound(i%k);
+        if (p == avai.end())
+            p = avai.begin();
+        cnt[*p]++;
+        busy.emplace(arrival[i]+load[i], *p);
+        avai.erase(p);
     }
     vector<int> ans = {0};
     for (int i = 1; i < k; i++)
@@ -25,9 +34,9 @@ vector<int> busiestServers(int k, vector<int>& arrival, vector<int>& load) {
 }
 
 int main(void) {
-    int k = 3;
-    vector<int> arr = {1,2,3,4,8,9,10};
-    vector<int> load = {5,2,10,3,1,2,2};
+    int k = 2;
+    vector<int> arr = {1,2,3};
+    vector<int> load = {10000,1,10000};
     vector<int> tp = busiestServers(k, arr, load);
     for (int i = 0; i < tp.size(); i++) cout << tp[i] << ' ';
 }
