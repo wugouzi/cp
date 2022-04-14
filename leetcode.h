@@ -12,6 +12,7 @@
 #include <queue>
 #include <set>
 #include <stack>
+#include <numeric>
 
 using namespace std;
 
@@ -22,4 +23,21 @@ struct ListNode {
     ListNode(int k) : val(k), next(nullptr) {};
     ListNode(int k, ListNode* p) : val(k), next(p) {};
 };
+
+struct TreeNode {
+    int val;
+    TreeNode* left;
+    TreeNode* right;
+    TreeNode() : val(0), left(nullptr), right(nullptr) {}
+    TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}
+    TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
+};
+
+void PreTree(TreeNode* tp) {
+    if (!tp) return;
+    PreTree(tp->left);
+    cout << tp->val << ' ';
+    PreTree(tp->right);
+    return;
+}
 #endif //LEETCODE_LEETCODE_H

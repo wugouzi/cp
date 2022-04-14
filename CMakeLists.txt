@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.21)
 project(leetcode)
 
-set(CMAKE_CXX_STANDARD 14)
+set(CMAKE_CXX_STANDARD 17)
 
 
 
@@ -95,3 +95,10 @@ add_executable(166-FractionToRecurring 166-FractionToRecurring.cpp)
 add_executable(380-InsertDeleteGetRandom 380-InsertDeleteGetRandom.cpp)
 add_executable(796-RotateString 796-RotateString.cpp)
 add_executable(28-ImplementStr 28-ImplementStr.cpp)
+add_executable(396-LongestSubstring 396-LongestSubstring.cpp)
+add_executable(189-RotateArray 189-RotateArray.cpp)
+add_executable(321-CreateMaximumNumber 321-CreateMaximumNumber.cpp)
+add_executable(1081-SmallestSubsequence 1081-SmallestSubsequence.cpp)
+add_executable(654-MaximumBinaryTree 654-MaximumBinaryTree.cpp)
+add_executable(853-CarFleet 853-CarFleet.cpp)
+add_executable(330-PatchingArray 330-PatchingArray.cpp)
