@@ -1,11 +1,16 @@
+*
+!*/
+!*.*
 .DS_Store
 .idea
 *.log
 *.gch
 tmp/
-
+*.txt
 *.class
 build
 leetcode/
 test.dSYM/
 cmake-build-debug/
+launch.json
+.vscode
