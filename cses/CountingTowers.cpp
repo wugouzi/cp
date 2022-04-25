@@ -16,21 +16,14 @@ int main(void) {
         cin >> nums[i];
         k = max(nums[i], k);
     }
-    vector<vector<long long>> dp(k+1,vector<long long>(2));
-    dp[1][0] = 1, dp[1][1] = 2;
-    int sum1 = 1, sum2 = 0;
+    vector<long long> sep(k+1), join(k+1);
+    sep[1] = 1, join[1] = 1;
     for (int i = 2; i <= k; i++) {
-        dp[i][0] = sum1+1;
-        sum1 += dp[i][0];
-        sum1 %= N;
-        dp[i][1] += 2*dp[i][0];
-        for (int j = 1; j <= i-1; j++) {
-            dp[i][1] += dp[j][1] * dp[i-j][1];
-        }
-        dp[i][1] %= N;
+        sep[i] = (4*sep[i-1]+join[i-1])%N;
+        join[i] = (sep[i-1]+2*join[i-1])%N;
     }
     for (int i = 0; i < n-1; i++)
-        cout << dp[nums[i]][1] << endl;
-    cout << dp[nums[n-1]][1];
+        cout << (sep[nums[i]]+join[nums[i]])%N << endl;
+    cout << (sep[nums[n-1]]+join[nums[n-1]])%N;
     return 0;
 }
