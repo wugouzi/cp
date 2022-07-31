@@ -9,7 +9,6 @@ tmp/
 *.txt
 *.class
 build
-leetcode/
 test.dSYM/
 cmake-build-debug/
 launch.json
