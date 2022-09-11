@@ -58,7 +58,7 @@ int catMouseGame(vector<vector<int>>& graph) {
     NN = 0;
     for (auto& cc : graph)
         for (auto& c : cc)
-            NN = max(NN,c+1);
+            NN = mm(NN,c+1);
     for (int i = 0; i < NN; i++)
         for (int j = 0; j < NN; j++)
             for (int k = 0; k <= NN*(NN-1);k++)

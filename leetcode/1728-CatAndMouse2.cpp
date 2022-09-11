@@ -77,8 +77,8 @@
     int n = grid.size(), m = grid[0].size();
     for (int i = 0; i < n; i++)
         for (int j = 0; j < m; j++) {
-            degree[i][j] = max(0,min(j,catJump))+max(0,min(m-1-j,catJump))
-                    +max(0,min(i,catJump))+max(0,min(n-1-i,catJump));
+            degree[i][j] = mm(0,min(j,catJump))+mm(0,min(m-1-j,catJump))
+                    +mm(0,min(i,catJump))+mm(0,min(n-1-i,catJump));
             for (int ii = 0; ii < n; ii++)
                 for (int jj = 0; jj < n; jj++) {
                     color[i][j][ii][jj][0] = color[i][j][ii][jj][1] = -1;
