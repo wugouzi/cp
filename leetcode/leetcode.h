@@ -20,6 +20,7 @@
 #include <ctype.h>
 #include <fstream>
 #include <iomanip>
+#include <list>
 #include <sstream>
 
 using namespace std;

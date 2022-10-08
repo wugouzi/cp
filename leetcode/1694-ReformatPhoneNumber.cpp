@@ -17,7 +17,6 @@ string reformatNumber(string number) {
         it++;
         n -= 3;
     }
-    cout << s << endl;
     if (n == 4) {
         it += 2;
         s.insert(it, '-');
