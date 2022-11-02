@@ -11,6 +11,7 @@ tmp/
 build
 test.dSYM/
 cmake-build-debug/
+cmake-build-debug-coverage/
 launch.json
 .vscode
 .cmake

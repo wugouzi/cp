@@ -113,3 +113,7 @@ add_executable(1719-NumberOfWaysToReconstructATree leetcode/1719-NumberOfWaysToR
 add_executable(903-ValidPermutationForDISequence leetcode/903-ValidPermutationForDISequence.cpp)
 add_executable(1575-CountAllPossibleRoutes leetcode/1575-CountAllPossibleRoutes.cpp)
 add_executable(2003-SmallestMissingGeneticValuesInEachSubtree leetcode/2003-SmallestMissingGeneticValuesInEachSubtree.cpp)
+add_executable(6207 leetcode/6207.cpp)
+add_executable(902-NumbersAtMostNGivenDigitSet leetcode/902-NumbersAtMostNGivenDigitSet.cpp)
+add_executable(string_like miscellaneous/string_like.cpp)
+add_executable(StaticRangeMinimumQueries cses/StaticRangeMinimumQueries.cpp)
