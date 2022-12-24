@@ -129,3 +129,5 @@ add_executable(SalaryQueries cses/SalaryQueries.cpp)
 
 add_executable(PrefixSumQueries cses/PrefixSumQueries.cpp)
 add_executable(PizzeriaQueries cses/PizzeriaQueries.cpp)
+add_executable(RoundTripII cses/RoundTripII.cpp)
+add_executable(LongestFlightRoute cses/LongestFlightRoute.cpp)
