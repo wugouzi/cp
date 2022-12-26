@@ -17,3 +17,4 @@ launch.json
 .vscode
 .cmake
 cmake-build-debug-coverage
+.ccls-cache/
