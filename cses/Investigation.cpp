@@ -18,6 +18,7 @@ int main(void) {
   int n, m, a, b, c;
   cin >> n >> m;
   vector<vector<pp>> E(n);
+  int N = 1e9+7;
   for (int i = 0; i < m; i++) {
     cin >> a >> b >> c;
     E[a-1].push_back({b-1, c});
@@ -27,34 +28,36 @@ int main(void) {
   q.push({0, 0, 0});
   ll a1 = LONG_MAX;
 
-  vector<ll> a2(n, 0), a3(n, LONG_MAX), a4(n, -1);
-  a2[0] = 1;
+  vector<ll> sp(n, LONG_MAX), cnt(n, 0), minf(n, LONG_MAX), maxf(n, -1);
+
+  //observation: nodes in shortest path are still shortest path
+
+  cnt[0] = 1;
+  minf[0] = 0;
+  maxf[0] = 0;
   while (!q.empty()) {
     ll c = q.top()[0];
     ll s = q.top()[1];
-    ll t = q.top()[2];
     // cout << s << endl;
     q.pop();
-    // if (vis[s]) continue;
+    if (vis[s]) continue;
     vis[s] = 1;
     for (auto &tt : E[s]) {
-      if (vis[tt.first]) continue;
-      if (tt.first == n-1) {
-        if (tt.second + c <= a1) {
-          a1 = c + tt.second;
-          a2[n-1] += a2[s];
-          a3[n-1] = min(a3[n-1], t+1);
-          a4[n-1] = max(a4[n-1], t+1);
-        }
-      } else {
-        a2[tt.first] += a2[s];
-        a3[tt.first] = min(a3[tt.first], t+1);
-        a4[tt.first] = max(a4[tt.second], t+1);
-        q.push({c + tt.second, tt.first, t+1});
+      int t = tt.first, w = tt.second;
+      if (vis[t]) continue;
+      if (w + c < sp[t]) {
+        sp[t] = w + c;
+        cnt[t] = cnt[s];
+        minf[t] = minf[s] + 1;
+        maxf[t] = maxf[s] + 1;
+        q.push({w + c, t});
+      } else if (w + c == sp[t]) {
+        (cnt[t] += cnt[s]) %= N;
+        minf[t] = min(minf[t], minf[s] + 1);
+        maxf[t] = max(maxf[t], maxf[s] + 1);
       }
-
     }
   }
-  cout << a1 << ' ' << a2[n-1] << ' ' << a3[n-1] << ' ' << a4[n-1];
+  cout << sp[n-1] << ' ' << cnt[n-1] << ' ' << minf[n-1] << ' ' << maxf[n-1];
   return 0;
 }
