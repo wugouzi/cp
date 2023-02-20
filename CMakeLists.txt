@@ -139,3 +139,4 @@ add_executable(1801-NumberofOrdersintheBacklog leetcode/1801-NumberofOrdersinthe
 add_executable(SubarraySumQueries cses/SubarraySumQueries.cpp)
 add_executable(CoinCollector cses/CoinCollector.cpp)
 add_executable(DistinctValuesQueries cses/DistinctValuesQueries.cpp)
+add_executable(IncreasingArrayQuries cses/IncreasingArrayQuries.cpp)
