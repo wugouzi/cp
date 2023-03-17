@@ -2,13 +2,33 @@
 // Created by wu on 2022/2/28.
 //
 
-#include <iostream>
-#include <vector>
-#include <string>
-#include <map>
-#include <unordered_map>
-using namespace std;
+#include "leetcode.h"
 
+string minWindow(string s, string t) {
+    int l = 0, r = 0, dif = 0, n = s.size();
+    //vector<int> cnt(256);
+    unordered_map<char,int> cnt;
+    int ans = INT_MAX, ansl = -1;
+
+    for (auto &c : t) {
+        if (!cnt[c]) dif++;
+        cnt[c]++;
+    }
+    while (r < n) {
+        cnt[s[r]]--;
+        if (!cnt[s[r]]) dif--;
+        while (!dif && l <= r && cnt[s[l]] < 0) {
+            cnt[s[l]]++;
+            l++;
+        }
+        if (!dif && r - l + 1 < ans) {
+            ans = r - l + 1;
+            ansl = l;
+        }
+        r++;
+    }
+    return s.substr(ansl, ans);
+}
 /*string minWindow(string s, string t) {
     int ns = s.size(), nt = t.size();
     map<char, int> num;
@@ -61,6 +81,7 @@ using namespace std;
     return ans;
 }*/
 
+/*
 unordered_map <char, int> ori, cnt;
 
 bool check() {
@@ -97,7 +118,7 @@ string minWindow(string s, string t) {
     }
 
     return ansL == -1 ? string() : s.substr(ansL, len);
-}
+}*/
 
 
 

@@ -1,11 +1,58 @@
 //
 // Created by wu on 2022/3/8.
 //
-#include <vector>
-#include <string>
-#include <iostream>
-#include <unordered_set>
-using namespace std;
+#include "leetcode.h"
+
+// vector<string> ans;
+unordered_map<string,bool> mp;
+bool check(string &s) {
+    int c1 = 0, c2 = 0;
+    for (auto &c : s) {
+        if (c == '(') c1++;
+        else c1++;
+        if (c1 < c2) return false;
+    }
+    return c1 == c2;
+}
+
+void dfs(string &s, string &res, int i, int lc, int rc) {
+    if (i == s.size()) {
+        if (!lc && !rc && check(res)) mp[res];
+        return;
+    }
+    if (s[i] == '(' || s[i] == ')')
+        dfs(s, res, i+1, lc, rc);
+    else {
+        res.push_back(s[i]);
+        dfs(s, res, i+1, lc, rc);
+        res.pop_back();
+    }
+    if (s[i] == '(' && lc) {
+        res.push_back('(');
+        dfs(s, res, i+1, lc-1, rc);
+        res.pop_back();
+    }
+    if (s[i] == ')' && rc && rc > lc) {
+        res.push_back(')');
+        dfs(s, res, i+1, lc, rc-1);
+        res.pop_back();
+    }
+}
+vector<string> removeInvalidParentheses(string s) {
+    int l1 = 0, l2 = 0;
+    for (auto &c : s) {
+        if (c == '(') l1++;
+        if (c == ')') {
+            if (l1) l1--;
+            else l2++;
+        }
+    }
+    string tp;
+    dfs(s, tp, 0, l1, l2);
+    return ans;
+}
+
+/*
 int len;
 unordered_set<string> ans;
 string s;
@@ -40,11 +87,12 @@ vector<string> removeInvalidParentheses(string _s) {
     vector<string> tp(ans.begin(),ans.end());
     return tp;
 }
-
+*/
 
 
 int main(void) {
-    string s = "(a)())()";
+    string s = "()())()";
+    //string s = "(a)())()";
     vector<string> tp = removeInvalidParentheses(s);
     for (int i = 0; i < tp.size(); i++) {
         cout << tp[i] << ' ';
