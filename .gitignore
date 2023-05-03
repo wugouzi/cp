@@ -18,3 +18,4 @@ launch.json
 .cmake
 cmake-build-debug-coverage
 .ccls-cache/
+target/
