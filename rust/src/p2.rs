@@ -1,4 +1,4 @@
-use crate::util::linked_list::{to_list, ListNode};
+use crate::util::linked_list::{ListNode};
 
 impl Solution {
   pub fn add_two_numbers(
@@ -76,6 +76,7 @@ pub struct Solution;
 mod tests {
   extern crate test;
   use super::*;
+  use crate::util::linked_list::to_list;
 
   #[test]
   fn test2() {
