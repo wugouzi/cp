@@ -16,6 +16,15 @@ pub mod p6;
 pub mod p7;
 
 pub mod p10;
+pub mod p11;
+
+// pub mod p14;
+
+// pub mod p1016;
+
+pub mod p1054;
+
+pub mod p1330;
 
 pub mod p1419;
 pub mod util;
