@@ -24,7 +24,15 @@ pub mod p11;
 
 pub mod p1054;
 
+pub mod p1072;
+
 pub mod p1330;
 
+pub mod p1373;
+
 pub mod p1419;
+
+
+pub mod plcp33;
+
 pub mod util;
