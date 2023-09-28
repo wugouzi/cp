@@ -90,4 +90,12 @@ void PreTree(TreeNode* tp) {
     return;
 }
 
+template<typename T>
+void pv(T v) {
+  for (auto &s: v) {
+    cout << s << ", ";
+  }
+  cout << endl;
+}
+
 #endif //LEETCODE_LEETCODE_H

@@ -1,7 +1,12 @@
 cmake_minimum_required(VERSION 3.21)
+
 project(code)
 
+
 set(CMAKE_CXX_STANDARD 17)
+set (CMAKE_GENERATOR "Ninja" CACHE INTERNAL "" FORCE)
+#set(CMAKE_C_FLAGS_DEBUG "-g -DDEBUG")
+#set(CMAKE_CXX_FLAGS_DEBUG "-g -DDEBUG")
 ##set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -DCMAKE_EXPORT_COMPILE_COMMANDS=1")
 ##set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -fsanitize=address -g")
 
@@ -23,10 +28,11 @@ add_executable(pdd miscellaneous/pdd.cpp)
 add_executable(pdd2 miscellaneous/pdd2.cpp)
 add_executable(paypal miscellaneous/paypal.cpp)
 add_executable(dolphin3 miscellaneous/dolphin3.cpp)
-add_executable(dolphin3_test miscellaneous/dolphin3_test.cpp)
 add_executable(dolphin2 miscellaneous/dolphin2.cpp)
 add_executable(dolphin1 miscellaneous/dolphin1.cpp)
 add_executable(zhaoshang miscellaneous/zhaoshang.cpp)
 add_executable(zhaoshang2 miscellaneous/zhaoshang2.cpp)
 add_executable(ant2 miscellaneous/ant2.cpp)
-add_executable(huawei miscellaneous/huawei.cpp)
+add_executable(834-SumOfDistanceInTree leetcode/834-SumOfDistanceInTree.cpp)
+add_executable(460 leetcode/460-LFU.cpp)
+add_executable(2251 leetcode/2251.cpp)
