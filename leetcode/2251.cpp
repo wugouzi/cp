@@ -3,10 +3,11 @@
 #define RR 13
 class Node {
 public:
+  int v;
   int lazy;
   Node *left;
   Node *right;
-  Node() : lazy(0), left(nullptr), right(nullptr) {}
+  Node() : v(0), lazy(0), left(nullptr), right(nullptr) {}
 } *root;
 
 void push(Node *u) {
@@ -14,7 +15,9 @@ void push(Node *u) {
     u->left = new Node();
   if (!u->right)
     u->right = new Node();
-  u->left->lazy = u->right->lazy = u->lazy;
+  u->left->lazy += u->lazy;
+  u->right->lazy += u->lazy;
+  u->v += u->lazy;
   u->lazy = 0;
 }
 
@@ -33,11 +36,10 @@ void update(Node *u, int l, int r, int L, int R) {
 
 int query(Node *u, int l, int r, int d) {
   if (d <= l && d >= r)
-    return u->lazy;
+    return u->v + u->lazy;
   if (!u->left)
-    return u->lazy;
+    return u->v + u->lazy;
   int mid = (l + r) / 2;
-  int ans = 0;
   push(u);
   if (d <= mid)
     return query(u->left, l, mid, d);
@@ -51,7 +53,7 @@ vector<int> fullBloomFlowers(vector<vector<int>> &flowers,
     update(root, 1, RR, v[0], v[1]);
   vector<int> ans;
   for (auto &n : people)
-    ans.push_back(query(root, 1, 1e9, n));
+    ans.push_back(query(root, 1, RR, n));
   return ans;
 }
 
