@@ -36,9 +36,7 @@ int collectTheCoins(vector<int> &coins, vector<vector<int>> &edges) {
     E[e[1]].insert(e[0]);
   }
   vector<int> vis(n);
-  for (int i = 0; i < n; i++)
-    if (!vis[i])
-      dfs(i, -1, coins, vis);
+
   dfs2(0, vis);
   int sum = 0;
   for (auto &e : E)
